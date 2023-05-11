@@ -3,6 +3,9 @@
 #include <iostream>
 #include <cmath>
 
+// for test I don't know that work. Hahaa
+
+
 using namespace std;
 
 struct DataBin
