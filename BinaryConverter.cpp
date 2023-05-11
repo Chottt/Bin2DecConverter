@@ -44,11 +44,7 @@ int main()
     cout << "Binary: " << endl;
     for (int i = 0; i < (sizeof(double) * 8); ++i)
     {
-        cout << dataBinary.dataBinary[63 - i] << " ";
-        if (i < 32)
-        {
-            bin2dec += ((dataBinary.dataBinary[i]) * pow(2, (i)));
-        }
+        bin2dec += ((dataBinary.dataBinary[i]) * pow(2, (i)));
     }
 
     cout << endl;
